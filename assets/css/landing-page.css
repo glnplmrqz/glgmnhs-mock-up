@@ -450,6 +450,8 @@ section:not(.hero-section) {
 .carousel-button {
   height: 2.6rem;
   width: 2.6rem;
+  border-radius: 50%;
+  transition: all 0.3s ease-in;
 }
 .carousel-button:hover,
 .carousel-button:focus-visible {
