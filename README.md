@@ -4,8 +4,7 @@ A modern and responsive school website mock-up for **General Licerio Geronimo Me
 
 This project is created as a **frontend web design and development mock-up**, focusing on modern UI/UX, responsive layouts, school branding, and accessible navigation.
 
-<img width="1341" height="608" alt="image" src="https://github.com/user-attachments/assets/6016c931-b759-44f9-a338-70157636f28c" />
-
+<img width="1920" height="4314" alt="glgmnhs" src="https://github.com/user-attachments/assets/75b2ccec-c75a-4829-b5eb-1fe701742204" />
 
 ## 🌐 Live Demo
 
