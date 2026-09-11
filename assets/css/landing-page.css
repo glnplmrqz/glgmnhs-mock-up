@@ -97,14 +97,6 @@ img {
   max-width: 44rem;
 }
 
-.eyebrow {
-  color: var(--red);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
 .hero-section .eyebrow {
   color: var(--yellow);
   max-width: 30rem;
@@ -222,15 +214,6 @@ section:not(.hero-section) {
   transform: translateY(-0.35rem);
 }
 
-.card-number {
-  color: white;
-  display: block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  margin-bottom: 2.75rem;
-}
-
 .statement-card h3 {
   font-size: clamp(1.4rem, 2vw, 1.7rem);
   margin-bottom: 1.1rem;
@@ -241,6 +224,7 @@ section:not(.hero-section) {
   font-size: 0.85rem;
   line-height: 1.75;
   max-width: 30rem;
+  text-align: justify;
 }
 
 .values-list {
@@ -249,20 +233,14 @@ section:not(.hero-section) {
 }
 
 .values-list li {
-  border-top: 1px solid rgb(255 255 255 / 0.35);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0.55rem 0;
 }
 
 .values-list span {
-  font-size: 0.85rem;
-  font-weight: 700;
-}
-
-.values-list small {
-  color: rgb(255 255 255 / 0.78);
-  font-size: 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 #school-events {
@@ -286,6 +264,7 @@ section:not(.hero-section) {
   text-decoration: none;
   border-radius: 15px;
   transition: box-shadow 0.25s ease, transform 0.25s ease;
+  height: fit-content;
 }
 
 .event-card:hover {
@@ -347,7 +326,7 @@ section:not(.hero-section) {
 }
 
 .footer-content p {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .footer-content strong {
@@ -493,6 +472,10 @@ section:not(.hero-section) {
 
   .card-number {
     margin-bottom: 2rem;
+  }
+
+  .footer-content p {
+    font-size: 0.75rem;
   }
 }
 
